@@ -102,4 +102,3 @@ for (let i = 0; i < form.length; i += 2) {
 }
 
 formDom.innerHTML = buffer + `<input required type="submit" value="Invia" class="btn btn-primary mb-2"/>`;
-console.log(formDom);
