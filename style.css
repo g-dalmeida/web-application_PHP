@@ -1,108 +1,50 @@
-.form {
-    width: 500px; 
-    margin: 0 auto;
-    text-align: center;
-}
-
-.label{
-    text-align: center;
-    background-color: rgb(121, 120, 120);
-}
-
-#errorMessage {
-    color: red;
-    font-weight: bold;
-    margin-top: 10px;
-  }
-
-  /* Stile generale per il corpo */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f7f7f7;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  /* Contenitore del form */
-  .form {
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px 40px;
-    max-width: 500px;
-    width: 100%;
-  }
-  
-  /* Stile per il titolo */
-  h1 {
-    text-align: center;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  /* Stile dei label */
-  label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-    color: #555;
-  }
-  
-  /* Stile degli input */
-  input[type="text"],
-  input[type="date"],
-  input[type="number"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-  }
-  
-  /* Stile del pulsante di submit */
-  input[type="submit"] {
-    width: 100%;
-    padding: 10px;
-    background-color: #28a745;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  input[type="submit"]:hover {
-    background-color: #218838;
-  }
-  
-  /* Messaggi di errore */
-  #errorMessage {
-    color: red;
-    font-weight: bold;
-    margin-top: 10px;
-  }
-  
-  /* Aggiungi uno stile visivo agli input quando sono in focus */
-  input:focus {
-    outline: none;
-    border-color: #007bff;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
-  }
-  
-  /* Media query per migliorare l'aspetto su schermi piccoli */
-  @media (max-width: 600px) {
-    .form {
-      padding: 15px;
-    }
-  
-    input[type="submit"] {
-      font-size: 14px;
-    }
-  }
-  
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#myform {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px 40px;
+  width: 100%;
+}
+
+.title {
+  text-align: center;
+  color: red;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #286ea7;
+}
+
+
+input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
