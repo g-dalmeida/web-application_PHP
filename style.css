@@ -1,0 +1,16 @@
+.form {
+    width: 500px; 
+    margin: 0 auto;
+    text-align: center;
+}
+
+.label{
+    text-align: center;
+    background-color: rgb(121, 120, 120);
+}
+
+#errorMessage {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+  }
