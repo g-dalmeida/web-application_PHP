@@ -1,6 +1,7 @@
+
 body {
   font-family: Arial, sans-serif;
-  background-color: #f7f7f7;
+  background: linear-gradient(to right, #225892, #b1c1d3);
   margin: 0;
   padding: 0;
   display: flex;
@@ -20,6 +21,9 @@ body {
   text-align: center;
   color: red;
   margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 20px 60px;
+  width: 100%;
 }
 
 label {

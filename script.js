@@ -94,20 +94,5 @@ function controlRegex(event) {
     }
     else {
         window.location.href = "final.html";
-        const userData = {
-            name: name,
-            surname: surname,
-            email: email,
-            phone: phone,
-            cf: cf,
-            pn: pn,
-            pron: pron,
-            pares: pares,
-            prores: prores,
-            cr: cr,
-            address: address,
-            civico: civico,
-            cap: cap
-        };
     }
 };
