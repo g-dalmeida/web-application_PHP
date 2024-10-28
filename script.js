@@ -13,9 +13,6 @@ let emailPattern = /^[\w-\.]+@([\w-]+\.)+[\w]{2,4}$/;
 let errorMessages = "";
 
 
-
-
-
 function controlRegex(event) {
     event.preventDefault();
 
@@ -33,7 +30,6 @@ function controlRegex(event) {
     let address = document.getElementById("address").value;
     let civico = document.getElementById("civico").value;
     let cap = document.getElementById("cap").value;
-
 
 
     if (!new RegExp(textPattern).test(name)) {
@@ -90,9 +86,9 @@ function controlRegex(event) {
 
     if (errorMessages.length > 0) {
         alert(errorMessages);
-        errorMessages = "";
+        errorMessages= "";
     }
     else {
-        window.location.href = "final.html";
+        window.location.href = "final.html"
     }
-};
+}; 
