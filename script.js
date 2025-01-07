@@ -89,6 +89,6 @@ function controlRegex(event) {
         errorMessages= "";
     }
     else {
-        window.location.href = "final.php"
+        document.getElementById('myform').submit();
     }
 }; 

@@ -21,13 +21,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $cap = htmlspecialchars($_POST['cap']);
 
     // Crea un messaggio di benvenuto
-    $messaggio = "Benvenuto $name $surname! <br>
-    La tua email è: $email;<br>
+    $benvenuto= "Benvenuto $name $surname! <br>";
+    $messaggio = "La tua email è: $email;<br>
     Il tuo numero di telefono è: $phone;<br>
     La tua data di nascita è: $birth;<br>
     Il tuo codice fiscale è: $cf;<br>
     Il tuo paese di nascita è: $pn ($pron);<br> 
-    Risiedi in: $address,$civico in $pares ($prores) comune di $cr ($cap), ;<br>";
+    Risiedi in: $address, $civico in $pares ($prores) comune di $cr ($cap), ;<br>";
 
 }
 ?>
@@ -42,7 +42,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </head>
 
 <body>
-    <p><?php echo $messaggio; ?></p>
+    <h1><?php echo $benvenuto; ?></h1>
+    <h3><?php echo $messaggio; ?></h3>
 </body>
 
 </html>
