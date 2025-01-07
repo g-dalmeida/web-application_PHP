@@ -23,7 +23,7 @@
   <body>
     <div class="container">
       <header><h1 class="title">FORM DI REGISTRAZIONE</h1></header>
-      <form id="myform" onsubmit="controlRegex(event)">
+      <form method="POST" id="myform" onsubmit="controlRegex(event)" action="" >
       </form>
     </div>
   </body>
